@@ -12,4 +12,4 @@ def user(username):
     return f'<h1> Profile for {username} </h1>'
 
 if __name__ == "__main__":
-    app.run(debug=True, port=4555)
+    app.run(debug=True)
